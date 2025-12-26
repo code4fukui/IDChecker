@@ -1,5 +1,7 @@
 # IDChecker
 
+![IDChecker logo](IDChecker_logo.png)
+
 簡易ワイルドカード対応文字列判定ライブラリ / Simple Wildcard-Based String Matching Library
 
 ## 説明
@@ -16,7 +18,7 @@
 ### 使い方
 
 ```js
-import { IDChecker } from "https://code4fukui.github.io/TokenChceker/IDChecker.js";
+import { IDChecker } from "https://code4fukui.github.io/IDChecker/IDChecker.js";
 
 const checker = new IDChecker(["hello*", "*world", "foo"]);
 
@@ -42,7 +44,7 @@ It evaluates an input string according to the following rules:
 ## usage
 
 ```js
-import { IDChecker } from "https://code4fukui.github.io/TokenChceker/IDChecker.js";
+import { IDChecker } from "https://code4fukui.github.io/IDChecker/IDChecker.js";
 
 const checker = new IDChecker(["hello*", "*world", "foo"]);
 
