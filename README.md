@@ -1,6 +1,6 @@
 # IDChecker
 
-![IDChecker logo](IDChecker_logo.png)
+![IDChecker logo](IDChecker.png)
 
 簡易ワイルドカード対応文字列判定ライブラリ / Simple Wildcard-Based String Matching Library
 
