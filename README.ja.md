@@ -1,15 +1,13 @@
 # IDChecker
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+シンプルなワイルドカードベースの文字列マッチングライブラリ
 
-Simple Wildcard-Based String Matching Library
+## 特徴
+- 文字列の先頭および末尾に対するシンプルなワイルドカードパターン（`"abc*"`、`"*abc"`）をサポート
+- 軽量で依存関係なし
+- 小規模なフィルタリングやトークンチェックに最適
 
-## Features
-- Supports simple wildcard patterns (`"abc*"`, `"*abc"`) for beginning and end of strings
-- Lightweight and dependency-free
-- Suitable for small-scale filtering and token checking
-
-## Usage
+## 使い方
 
 ```js
 import { IDChecker } from "https://code4fukui.github.io/IDChecker/IDChecker.js";
@@ -22,9 +20,9 @@ checker.check("foo");      // true (exact match)
 checker.check("bar");      // false
 ```
 
-## Example with Deno
+## Denoでの使用例
 
-Prepare `.env` file:
+`.env` ファイルを準備します:
 ```
 ADMIN_USER=abc@test.com,*@test2.com
 ```
@@ -40,5 +38,5 @@ console.log("def@test2.com", ts.check("def@test2.com"));
 console.log("def@test3.com", ts.check("def@test3.com"));
 ```
 
-## License
+## ライセンス
 MIT License
